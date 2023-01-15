@@ -1,0 +1,51 @@
+:root {
+  --primary-color: #e0ffcd;
+  --secondary-color: #fdffcd;
+  --third-color: #ffebbb;
+  --box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+--fourth-color:  #ff9a3c;
+--fifth-color:#ffb5b5;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 34px;
+  line-height: 48px;
+  color: #ffcab0;
+}
+.about-me-button {
+  padding: 10px;
+  background-color: var(--fifth-color);
+
+}
+.about-me-button:hover{
+    color: var(--primary-color);
+    box-shadow: 5px 5px 5px;
+   
+}
+.contact-me-button{
+    background-color: var(--fifth-color);
+    padding: 10px;
+}
+.contact-me-button:hover{
+    color: var(--primary-color);
+    box-shadow: 5px 5px 5px;
+}
+h2{
+    color: var(--fourth-color);
+
+}
+.about-me{
+    padding: 30px;
+    text-align: center;
+    border: var(--primary-color) solid;
+    background: #f6f1f7;
+}
