@@ -1,10 +1,10 @@
 :root {
-  --primary-color: #e0ffcd;
-  --secondary-color: #fdffcd;
-  --third-color: #ffebbb;
+  --primary-color: #f8b595;
+  --secondary-color:#f67280;
+  --third-color: #c06c84;
   --box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
---fourth-color:  #ff9a3c;
---fifth-color:#ffb5b5;
+--fourth-color:  #6c5b7c;
+--fifth-color:#a75265;
 }
 
 body {
@@ -19,7 +19,7 @@ h1 {
   margin: 0;
   font-size: 34px;
   line-height: 48px;
-  color: #ffcab0;
+  color:var(--primary-color);
 }
 .about-me-button {
   padding: 10px;
