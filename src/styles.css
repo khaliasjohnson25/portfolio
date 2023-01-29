@@ -24,7 +24,7 @@ h1 {
 .about-me-button {
   padding: 10px;
   background-color: var(--fifth-color);
-
+margin-bottom: 20px;
 }
 .about-me-button:hover{
     color: var(--primary-color);
