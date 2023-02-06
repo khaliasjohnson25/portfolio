@@ -49,3 +49,6 @@ h2{
     border: var(--primary-color) solid;
     background: #f6f1f7;
 }
+.img-fluid{
+  padding: 10px;
+}
